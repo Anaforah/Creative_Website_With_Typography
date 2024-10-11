@@ -1,0 +1,422 @@
+@keyframes colorTransition {
+    0% {
+        background-color: white;
+        color: #444;
+    }
+    100% {
+        background-color: red;
+        color: white;
+    }
+}
+
+@keyframes reverseTransition {
+    0% {
+        background-color: red;
+        color: white;
+    }
+    100% {
+        background-color: white;
+        color: #444;
+    }
+}
+
+/* Orange */
+@keyframes ORANGETransition {
+    0% {
+        background-color: white;
+        color: #444;
+    }
+    100% {
+        background-color: orange;
+        color: white;
+    }
+}
+
+@keyframes reverseORANGE {
+    0% {
+        background-color: orange;
+        color: white;
+    }
+    100% {
+        background-color: white;
+        color: #444;
+    }
+}
+/* FIM Orange */
+
+/*Yellow*/
+
+@keyframes YELLOWTransition {
+    0% {
+        background-color: white;
+        color: #444;
+    }
+    100% {
+        background-color:rgb(239, 239, 0);
+        color: black;
+    }
+}
+
+@keyframes reverseYELLOW {
+    0% {
+        background-color: rgb(239, 239, 0);
+        color: black;
+    }
+    100% {
+        background-color: white;
+        color: #444;
+    }
+}
+
+/* FIM Yellow */
+
+/* green */
+
+
+@keyframes GREENTransition {
+    0% {
+        background-color: white;
+        color: #444;
+    }
+    100% {
+        background-color:green;
+        color: white;
+    }
+}
+
+@keyframes reverseGREEN {
+    0% {
+        background-color: green;
+        color: white;
+    }
+    100% {
+        background-color: white;
+        color: #444;
+    }
+}
+/* FIM green */
+
+/* blue */
+@keyframes BLUETransition {
+    0% {
+        background-color: white;
+        color: #444;
+    }
+    100% {
+        background-color:blue;
+        color: white;
+    }
+}
+
+@keyframes reverseBLUE {
+    0% {
+        background-color: blue;
+        color: white;
+    }
+    100% {
+        background-color: white;
+        color: #444;
+    }
+}
+/* FIM blue */
+/* Indigo */
+@keyframes INDIGOTransition {
+    0% {
+        background-color: white;
+        color: #444;
+    }
+    100% {
+        background-color:indigo;
+        color: white;
+    }
+}
+
+@keyframes reverseINDIGO {
+    0% {
+        background-color: indigo;
+        color: white;
+    }
+    100% {
+        background-color: white;
+        color: #444;
+    }
+}
+/* FIM indigo */
+/* violeta */
+@keyframes VIOLETATransition {
+    0% {
+        background-color: white;
+        color: #444;
+    }
+    100% {
+        background-color:violet;
+        color: white;
+    }
+}
+
+@keyframes reverseVIOLETA {
+    0% {
+        background-color: violet;
+        color: white;
+    }
+    100% {
+        background-color: white;
+        color: #444;
+    }
+}
+/* FIM violeta */
+
+/*----CMKY-----*/
+/* cyan */
+@keyframes CYANTransition {
+    0% {
+        background-color: white;
+        color: #444;
+    }
+    100% {
+        background-color:cyan;
+        color: black;
+    }
+}
+
+@keyframes reverseCYAN {
+    0% {
+        background-color: cyan;
+        color: black;
+    }
+    100% {
+        background-color: white;
+        color: #444;
+    }
+}
+/* FIM cyan */
+/* magenta */
+@keyframes MAGENTATransition {
+    0% {
+        background-color: white;
+        color: #444;
+    }
+    100% {
+        background-color:magenta;
+        color: white;
+    }
+}
+
+@keyframes reverseMAGENTA {
+    0% {
+        background-color: magenta;
+        color: white;
+    }
+    100% {
+        background-color: white;
+        color: #444;
+    }
+}
+/* FIM magenta */
+/* black */
+@keyframes BLACKTransition {
+    0% {
+        background-color: white;
+        color: #444;
+    }
+    100% {
+        background-color:black;
+        color: white;
+    }
+}
+
+@keyframes reverseBLACK {
+    0% {
+        background-color: black;
+        color: white;
+    }
+    100% {
+        background-color: white;
+        color: #444;
+    }
+}
+/* FIM black */
+.hoverable {
+    border-radius: 10px;
+    color: #444;
+    font-weight: normal;
+}
+
+#e5.hoverable {
+    transition: background-color 0.5s ease, padding 0.5s ease;
+    animation: colorTransition 0.5s ease forwards;
+}
+
+#e5.reverse {
+    transition: background-color 0.5s, padding 0.5s ease;
+    animation: reverseTransition 0.5s ease forwards;
+}
+
+#e6.hoverable {
+    transition: background-color 0.5s ease, padding 0.5s ease;
+    animation: ORANGETransition 0.5s ease forwards;
+}
+
+#e6.reverse {
+    transition: background-color 0.5s ease, padding 0.5s ease;
+    animation: reverseORANGE 0.5s ease forwards;
+}
+
+#e7.hoverable {
+    transition: background-color 0.5s ease, padding 0.5s ease;
+    animation: YELLOWTransition 0.5s ease forwards;
+}
+
+#e7.reverse {
+    transition: background-color 0.5s ease, padding 0.5s ease;
+    animation: reverseYELLOW 0.5s ease forwards;
+}
+
+#e8.hoverable {
+    transition: background-color 0.5s ease, padding 0.5s ease;
+    animation: GREENTransition 0.5s ease forwards;
+}
+
+#e8.reverse {
+    transition: background-color 0.5s ease, padding 0.5s ease;
+    animation: reverseGREEN 0.5s ease forwards;
+}
+
+#e9.hoverable {
+    transition: background-color 0.5s ease, padding 0.5s ease;
+    animation: BLUETransition 0.5s ease forwards;
+}
+
+#e9.reverse {
+    transition: background-color 0.5s ease, padding 0.5s ease;
+    animation: reverseBLUE 0.5s ease forwards;
+}
+
+#e10.hoverable {
+    transition: background-color 0.5s ease, padding 0.5s ease;
+    animation: INDIGOTransition 0.5s ease forwards;
+}
+
+#e10.reverse {
+    transition: background-color 0.5s ease, padding 0.5s ease;
+    animation: reverseINDIGO 0.5s ease forwards;
+}
+
+#e11.hoverable {
+    transition: background-color 0.5s ease, padding 0.5s ease;
+    animation: VIOLETATransition 0.5s ease forwards;
+}
+
+#e11.reverse {
+    transition: background-color 0.5s ease, padding 0.5s ease;
+    animation: reverseVIOLETA 0.5s ease forwards;
+}
+
+/*----CMKY-----*/
+/*CYAN*/
+#e13.hoverable {
+    transition: background-color 0.5s ease, color 0.5s ease, padding 0.5s ease;
+    animation: CYANTransition 0.5s ease forwards;
+}
+
+#e13.reverse {
+    transition: background-color 0.5s ease, color 0.5s ease, padding 0.5s ease;
+    animation: reverseCYAN 0.5s ease forwards;
+}
+/*MAGENTA*/
+#e14.hoverable {
+    transition: background-color 0.5s ease, color 0.5s ease, padding 0.5s ease;
+    animation: MAGENTATransition 0.5s ease forwards;
+}
+
+#e14.reverse {
+    transition: background-color 0.5s ease, color 0.5s ease, padding 0.5s ease;
+    animation: reverseMAGENTA 0.5s ease forwards;
+}
+/*YELLOW*/
+#e15.hoverable {
+    transition: background-color 0.5s ease, color 0.5s ease, padding 0.5s ease;
+    animation: YELLOWTransition 0.5s ease forwards;
+}
+
+#e15.reverse {
+    transition: background-color 0.5s ease, color 0.5s ease, padding 0.5s ease;
+    animation: reverseYELLOW 0.5s ease forwards;
+}
+
+/*BLACK*/
+#e16.hoverable {
+    transition: background-color 0.5s ease, color 0.5s ease, padding 0.5s ease;
+    animation: BLACKTransition 0.5s ease forwards;
+}
+
+#e16.reverse {
+    transition: background-color 0.5s ease, color 0.5s ease, padding 0.5s ease;
+    animation: reverseBLACK 0.5s ease forwards;
+}
+
+/*----RGB-----*/
+/*red*/
+#e18.hoverable {
+    transition: background-color 0.5s ease, color 0.5s ease, padding 0.5s ease;
+    animation: colorTransition 0.5s ease forwards;
+}
+
+#e18.reverse {
+    transition: background-color 0.5s ease, color 0.5s ease, padding 0.5s ease;
+    animation: reverseTransition 0.5s ease forwards;
+}
+
+/*green*/
+#e19.hoverable {
+    transition: background-color 0.5s ease, color 0.5s ease, padding 0.5s ease;
+    animation: GREENTransition 0.5s ease forwards;
+}
+
+#e19.reverse {
+    transition: background-color 0.5s ease, color 0.5s ease, padding 0.5s ease;
+    animation: reverseGREEN 0.5s ease forwards;
+}
+
+/*blue*/
+#e20.hoverable {
+    transition: background-color 0.5s ease, color 0.5s ease, padding 0.5s ease;
+    animation: BLUETransition 0.5s ease forwards;
+}
+
+#e20.reverse {
+    transition: background-color 0.5s ease, color 0.5s ease, padding 0.5s ease;
+    animation: reverseBLUE 0.5s ease forwards;
+}
+
+
+#e5, #e6, #e7, #e8, #e9, #e10, #e11, #e13, #e14, #e15, #e16, #e18, #e19, #e20 {
+    border-radius: 10px;
+    color: #444;
+    font-weight: normal;
+}
+
+.new {
+    background-color: white;
+    padding: 2px 10px;
+}
+
+
+@keyframes paddingTransitionIn {
+    0% {
+        padding: 2px 0;
+    }
+    100% {
+        padding: 2px 10px;
+    }
+}
+
+@keyframes paddingTransitionOut {
+    0% {
+        padding: 2px 10px;
+    }
+    100% {
+        padding: 2px 0;
+    }
+}
+
